@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower shop</title>
+    <link rel="icon" href="icon/2d4ee50c2f.jpg">
+    <style>
+        body{
+            margin:0px;
+            padding: 0px;
+            background-color:rgb(211, 158, 140);
+        }
+        .main{
+            position: relative;
+            background-color: rgb(156, 76, 49);
+            height:90vh;
+            width:80vw;
+            top:5vh;
+            left:10vw;
+            border-radius: 30px;
+            border:2px solid black;
+        }
+        .sub1{
+            width: 40vw;
+            height:40vh;
+            background-color: rgb(211, 158, 140);
+            position: absolute;
+            top:5vh;
+            left:20vw;
+            color:black;
+            text-align: center;
+            border-radius: 20px;
+            border:2px solid black;
+        }
+        .sub2{
+            width: 78vw;
+            height: 40vh;
+            background-color:rgb(211, 158, 140);
+            position: absolute;
+            top: 48vh;
+            left:1vw;
+            overflow-y: auto;
+            display:flex;
+            flex-wrap: wrap;
+            flex-basis: 20;
+            border-radius: 34px;
+            justify-content: space-evenly;
+            border:2px solid black;
+        }
+        .sub2::-webkit-scrollbar{
+            display: none;
+        }
+        h1,h3,p,button{
+            margin-top: 20px;
+        }
+        .box{
+            margin:10px;
+            width:24vw;
+            height:32vh;
+            background-color:rgb(156, 76, 49);
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            height:30px;
+            width:200px;
+            border-radius: 10px;
+            font-size: 15px;
+            color:black;
+            background-color:rgb(211, 158, 140)
+        }
+         
+        .box img{
+            width:20vw;
+            height:24vh;
+            border-width: 10px ;
+            border-style:solid;
+            border-color:  white;
+            border-radius: 5px;
+        }
+        .sub1 button:hover{
+            transform: scale(1.2);
+        }
+    </style>                            <!--header=10vh,100vw & footer=10vh,100vw & body=80vh,100vw-->
+</head>
+<body>
+    <div class="main">
+       <div class="sub1">
+           <h1>ASMLY Flower Shop</h1>
+           <h3>Flower Make Sense</h3>
+           <p>asmly@flower.com</p>
+           <a href="ecom.html"><button>Search flower</button></a> 
+       </div> 
+        <div class="sub2">
+            <div class="box">
+                <img src="Home image/4e57ab95dc.jpg">
+            </div>
+            <div class="box">
+                <img src="Home image/1e1387a2c9.jpg">
+            </div>
+            <div class="box">
+                <img src="Home image/2b2ce81ee8.jpg">
+            </div>
+            <div class="box">
+                <img src="Home image/960dd65e06.jpg">
+            </div>
+            <div class="box">
+                <img src="Home image/a0850fdc6c.jpg">
+            </div>
+            <div class="box">
+                <img src="Home image/00f36a3c40.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
