@@ -41,9 +41,9 @@ nav{
     height:50px;
     width: 1338px;
     align-items: center;
-    background-color: rgba(128, 31, 31, 0.74);
+    background-color:rgb(202, 120, 92);
     border-radius: 10px;
-    color: aliceblue;
+    color: black;
 }
 h3{
     font-size: 25px;
@@ -60,7 +60,7 @@ h3{
 }
 a{
     padding-left: 10px; 
-    color: aliceblue;
+    color: black;
 }
 .addr,ul{
     height:30px;
